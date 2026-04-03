@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='/framework/style.css'>
+    <link rel='stylesheet' href='/framework/BannerStyle.css'>
+    <link rel='stylesheet' href='/framework/ModalStyle.css'>
+    <link rel='stylesheet' href='/src/css/game.css'>
+        <!-- Règles du Jeu de la Vie (machine-readable and quick-reference) -->
+        <meta name="game-rules" content="Naissance: une cellule morte avec exactement 3 voisins devient vivante; Survie: une cellule vivante avec 2 ou 3 voisins reste vivante; Mort: autrement la cellule meurt" />
+        <!-- Full rules JSON available in the DOM for scripts to consume -->
+        <script id="game-rules" type="application/json">
+{
+    "title": "Règles du Jeu de la Vie",
+    "rules": {
+        "birth": "Une cellule morte avec exactement 3 voisins vivants devient vivante.",
+        "survival": "Une cellule vivante avec 2 ou 3 voisins vivants reste vivante.",
+        "death": "Dans les autres cas, la cellule meurt (sous-population ou surpopulation)."
+    },
+    "notes": "Topologie torique utilisée (bord connecté)."
+}
+        </script>
+    <title>Jeu de la Vie - Terra Numerica</title>
+</head>
+<body>
+    <script type="module" src='/src/ts/main.ts'></script>
+</body>
+</html>

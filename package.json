@@ -1,0 +1,19 @@
+{
+  "name": "game-of-life-terra-numerica",
+  "version": "1.0.0",
+  "description": "Jeu de la Vie (Conway's Game of Life) - Terra Numerica",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "vite": "^5.4.10",
+    "@types/three": "^0.170.0"
+  }
+}
