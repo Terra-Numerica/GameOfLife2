@@ -2,6 +2,12 @@
 
 Le célèbre **Jeu de la Vie de Conway** en 3D avec Three.js, TypeScript et le framework Terra Numerica.
 
+## 🌐 Version en ligne
+
+Vous pouvez tester le jeu directement dans votre navigateur ici :
+
+👉 [https://terra-numerica.github.io/GameOfLife2/](https://terra-numerica.github.io/GameOfLife2/)
+
 ## 🚀 Démarrage rapide
 
 ### 1️⃣ Extraction
