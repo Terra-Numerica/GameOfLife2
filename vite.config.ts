@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/GameOfLife2/', 
+
   server: {
     port: 5173,
     open: true
